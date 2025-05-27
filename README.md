@@ -70,12 +70,89 @@ This dataset addresses critical gaps in digital circuit design by providing:
 - **Modular Architecture**: Easy customization and extension
 - **Educational Support**: Perfect for both research and teaching
 
-### Machine Learning Classification
+### DATASETS
 <div align="center">
-<img src="https://chart-studio.plotly.com/~kirudang/1/" alt="Machine Learning Classification Chart" width="800" height="800">
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4A90E2', 'primaryTextColor': '#fff', 'primaryBorderColor': '#4A90E2', 'lineColor': '#4A90E2', 'secondaryColor': '#27AE60', 'tertiaryColor': '#E67E22'}}}%%
+sunburst
+    title Machine Learning Classification
+    root("Machine Learning")
+        Supervised
+            Regression
+                "Linear Regression"
+                "Multivariate Adaptive Regression Splines (MARS)"
+                "Locally Weighted Scatterplot Smoothing (LOWESS)"
+                "Support Vector Regression (SVR)"
+                "Decision Tree Regression"
+                "Random Forest Regression"
+                "K-Nearest Neighbors Regression (KNN)"
+            Classification
+                "Logistic Regression"
+                "Naive Bayes"
+                "Support Vector Machines (SVM)"
+                "Decision Tree Classification"
+                "Random Forest Classification"
+                "Adaptive Boosting (AdaBoost)"
+                "Gradient Boosted Trees"
+                "Extreme Gradient Boosting (XGBoost)"
+                "K-Nearest Neighbors Classification (KNN)"
+            "Dimensionality Reduction"
+                "Linear Discriminant Analysis (LDA)"
+        Unsupervised
+            Clustering
+                "K-Means"
+                "Gaussian Mixture Models (GMM)"
+                "Hierarchical Agglomerative Clustering (HAC)"
+                "Density-Based Spatial Clustering of Applications with Noise (DBSCAN)"
+            Association
+                "Apriori"
+            "Dimensionality Reduction"
+                "Uniform Manifold Approximation and Projection (UMAP)"
+                "Principal Component Analysis (PCA)"
+                "Multidimensional Scaling (MDS)"
+                "Isomap Embedding"
+                "t-Distributed Stochastic Neighbor Embedding (t-SNE)"
+                "Locally Linear Embedding (LLE)"
+        "Neural Networks"
+            "Feed Forward Neural Networks"
+                "Feed Forward (FF)"
+                "Deep Feed Forward (DFF)"
+            "Recurrent Neural Networks"
+                "Recurrent Neural Network (RNN)"
+                "Long Short Term Memory (LSTM)"
+                "Gated Reccurent Unit (GRU)"
+            "Convolutional Neural Networks"
+                "Deep Convolutional Network (DCN)"
+                "Deconvolutional Network (DN)"
+                "Deep Convolutional Inverse Graphics Network (DCIGN)"
+            "Auto Encoders"
+                "Auto Encoder (AE)"
+                "Variational Auto Encoder (VAE)"
+                "Denoising Auto Encoder (DAE)"
+                "Sparse Auto Encoder (SAE)"
+            "Generative Adversarial Networks"
+                "Generative Adversarial Network (GAN)"
+        "Semi-Supervised"
+            "Self Training Classifier"
+            "Label Spreading"
+            "Label Propagation"
+        Reinforcement
+            "Monte Carlo Methods"
+            "Temporal-Difference (TD)"
+            "Policy Gradient"
+            "Proximal Policy Optimization (PPO)"
+            "SARSA (State-Action-Reward-State-Action)"
+            "Q-Learning"
+            "Deep Q Neural Network (DQN)"
+        Others
+            "Probabilistic Graphical Models"
+                "Bayesian Belief Networks"
+```
+
 </div>
 
-## �� Dataset Structure
+## Dataset Structure
 
 ### Level Distribution
 ```mermaid
