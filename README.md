@@ -70,7 +70,12 @@ This dataset addresses critical gaps in digital circuit design by providing:
 - **Modular Architecture**: Easy customization and extension
 - **Educational Support**: Perfect for both research and teaching
 
-## 📊 Dataset Structure
+### Machine Learning Classification
+<div align="center">
+<img src="https://chart-studio.plotly.com/~kirudang/1/" alt="Machine Learning Classification Chart" width="800" height="800">
+</div>
+
+## �� Dataset Structure
 
 ### Level Distribution
 ```mermaid
