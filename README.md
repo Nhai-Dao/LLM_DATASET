@@ -35,7 +35,7 @@ pip install digitalcircuit
 
 ### 🏆 Key Performance Insights
 <div align="center">
-  <img src="https://github.com/edabk-hust/edabk-ic-design-dataset/blob/main/images/Key_Performance_Insights.png" alt="Biểu đồ Sunburst" width="70%">
+  <img src="https://github.com/Nhai-Dao/LLM_DATASET/blob/main/images/Key_Performance_Insights.png" alt="Biểu đồ Sunburst" width="70%">
 </div>
 
 ## 🎯 Benchmark Goals
