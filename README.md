@@ -1,181 +1,75 @@
-# 🎯 edabk-ic-design-dataset
-
 <div align="center">
+<h1 style="font-size: 3em;">EDABK-IC-DESIGN-DATASET </h1>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
-[![Contributors](https://img.shields.io/github/contributors/Nhai-Dao/LLM_DATASET)](https://github.com/Nhai-Dao/LLM_DATASET/graphs/contributors)
-[![Stars](https://img.shields.io/github/stars/Nhai-Dao/LLM_DATASET?style=social)](https://github.com/Nhai-Dao/LLM_DATASET/stargazers)
-[![Forks](https://img.shields.io/github/forks/Nhai-Dao/LLM_DATASET?style=social)](https://github.com/Nhai-Dao/LLM_DATASET/network/members)
-[![Issues](https://img.shields.io/github/issues/Nhai-Dao/LLM_DATASET)](https://github.com/Nhai-Dao/LLM_DATASET/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/Nhai-Dao/LLM_DATASET)](https://github.com/Nhai-Dao/LLM_DATASET/pulls)
-
-*A comprehensive benchmark dataset for digital circuit design and AI model evaluation*
-
-[![Dataset Size](https://img.shields.io/badge/Dataset%20Size-11.7K%20samples-brightgreen)](https://github.com/Nhai-Dao/LLM_DATASET)
-[![Coverage](https://img.shields.io/badge/Coverage-3%20Levels-orange)](https://github.com/Nhai-Dao/LLM_DATASET)
-[![Best Score](https://img.shields.io/badge/Best%20Score-93.6%25-success)](https://github.com/Nhai-Dao/LLM_DATASET)
+[![Version](https://img.shields.io/badge/version-DC.1.0-blue)]()
+[![OpenCompass](https://img.shields.io/badge/OpenCompass-green?style=flat-square)](https://github.com/edabk-hust/edabk-ic-design-dataset)
 
 </div>
 
-## 🔍 Purpose
+## 🚀 Introduction
 
-<div align="center">
+**edabk-ic-design-dataset** is a complete ecosystem for digital circuit design education and research, consisting of three main components:
 
-### 🎯 Primary Goals
+- **🗃️ Dataset Collection**: Over 11,700 carefully curated problems spanning from basic theory to advanced circuit optimization, designed for both academic research and practical applications.
+- **📊 Benchmark Suite**: A standardized evaluation framework for comparing AI/LLM model performance across different complexity levels of digital circuit design problems.
+- **📦 Python Package**: A ready-to-use library available via `pip install digitalcircuit` that provides instant solutions for Karnaugh map minimization (3-4 variables), number system conversions, binary arithmetic, and digital logic calculations.
 
-</div>
+This integrated platform bridges the gap between theoretical knowledge and practical implementation, providing standardized benchmarks and educational resources for students, researchers, and AI developers worldwide.
 
-> **Address the lack of standardized datasets for digital electronics design:**
-> - Karnaugh maps
-> - Logic function minimization
-> - Number system conversions
 
-> **Provide a platform to evaluate and train AI/LLM models:**
-> - Performance assessment
-> - Domain-specific model optimization
-> - Benchmark comparison
+## 1. Package
 
-<div align="center">
+### 🔗 Installation & Access
 
-[![Dataset Coverage](https://img.shields.io/badge/Coverage-Digital%20Electronics%20Design-blueviolet)](https://github.com/Nhai-Dao/LLM_DATASET)
-[![AI Training](https://img.shields.io/badge/AI%20Training-LLM%20Optimization-ff69b4)](https://github.com/Nhai-Dao/LLM_DATASET)
+The **digitalcircuit** Python package is available on PyPI and provides comprehensive digital circuit design capabilities:
 
-</div>
-
-## 📚 Table of Contents
-- [Overview](#-overview)
-- [Features](#-features)
-- [Dataset Structure](#-dataset-structure)
-- [Installation](#-installation)
-- [Quick Start](#-quick-start)
-- [Benchmark Results](#-benchmark-results)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Citation](#-citation)
-
-## 🌟 Overview
-
-This dataset addresses critical gaps in digital circuit design by providing:
-- First comprehensive benchmark for digital electronics design problems
-- Standardized datasets for Karnaugh maps and logic function minimization
-- Platform for evaluating AI model performance in circuit design
-- Training resource for fine-tuning LLMs in digital circuit design
-
-## ✨ Features
-
-- **Comprehensive Coverage**: 11,726 samples across multiple complexity levels
-- **Automated Evaluation**: Built-in frameworks for model assessment
-- **Visualization Tools**: Intuitive representation of complex concepts
-- **Modular Architecture**: Easy customization and extension
-- **Educational Support**: Perfect for both research and teaching
-
-### DATASETS
-<div align="center">
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4A90E2', 'primaryTextColor': '#fff', 'primaryBorderColor': '#4A90E2', 'lineColor': '#4A90E2', 'secondaryColor': '#27AE60', 'tertiaryColor': '#E67E22'}}}%%
-sunburst
-    title Machine Learning Classification
-    root("Machine Learning")
-        Supervised
-            Regression
-                "Linear Regression"
-                "Multivariate Adaptive Regression Splines (MARS)"
-                "Locally Weighted Scatterplot Smoothing (LOWESS)"
-                "Support Vector Regression (SVR)"
-                "Decision Tree Regression"
-                "Random Forest Regression"
-                "K-Nearest Neighbors Regression (KNN)"
-            Classification
-                "Logistic Regression"
-                "Naive Bayes"
-                "Support Vector Machines (SVM)"
-                "Decision Tree Classification"
-                "Random Forest Classification"
-                "Adaptive Boosting (AdaBoost)"
-                "Gradient Boosted Trees"
-                "Extreme Gradient Boosting (XGBoost)"
-                "K-Nearest Neighbors Classification (KNN)"
-            "Dimensionality Reduction"
-                "Linear Discriminant Analysis (LDA)"
-        Unsupervised
-            Clustering
-                "K-Means"
-                "Gaussian Mixture Models (GMM)"
-                "Hierarchical Agglomerative Clustering (HAC)"
-                "Density-Based Spatial Clustering of Applications with Noise (DBSCAN)"
-            Association
-                "Apriori"
-            "Dimensionality Reduction"
-                "Uniform Manifold Approximation and Projection (UMAP)"
-                "Principal Component Analysis (PCA)"
-                "Multidimensional Scaling (MDS)"
-                "Isomap Embedding"
-                "t-Distributed Stochastic Neighbor Embedding (t-SNE)"
-                "Locally Linear Embedding (LLE)"
-        "Neural Networks"
-            "Feed Forward Neural Networks"
-                "Feed Forward (FF)"
-                "Deep Feed Forward (DFF)"
-            "Recurrent Neural Networks"
-                "Recurrent Neural Network (RNN)"
-                "Long Short Term Memory (LSTM)"
-                "Gated Reccurent Unit (GRU)"
-            "Convolutional Neural Networks"
-                "Deep Convolutional Network (DCN)"
-                "Deconvolutional Network (DN)"
-                "Deep Convolutional Inverse Graphics Network (DCIGN)"
-            "Auto Encoders"
-                "Auto Encoder (AE)"
-                "Variational Auto Encoder (VAE)"
-                "Denoising Auto Encoder (DAE)"
-                "Sparse Auto Encoder (SAE)"
-            "Generative Adversarial Networks"
-                "Generative Adversarial Network (GAN)"
-        "Semi-Supervised"
-            "Self Training Classifier"
-            "Label Spreading"
-            "Label Propagation"
-        Reinforcement
-            "Monte Carlo Methods"
-            "Temporal-Difference (TD)"
-            "Policy Gradient"
-            "Proximal Policy Optimization (PPO)"
-            "SARSA (State-Action-Reward-State-Action)"
-            "Q-Learning"
-            "Deep Q Neural Network (DQN)"
-        Others
-            "Probabilistic Graphical Models"
-                "Bayesian Belief Networks"
+**📦 Quick Installation:**
+```bash
+pip install digitalcircuit
 ```
 
+**🌐 Package Repository:** [https://pypi.org/project/digi-solver/0.1.0/](https://pypi.org/project/digi-solver/0.1.0/)
+
+
+## 2. Current Benchmark Results
+
+### 🏆 Key Performance Insights
+<div align="center">
+  <img src="https://github.com/edabk-hust/edabk-ic-design-dataset/blob/main/images/Key_Performance_Insights.png" alt="Biểu đồ Sunburst" width="70%">
 </div>
 
-## Dataset Structure
+## 🎯 Benchmark Goals
 
-### Level Distribution
-```mermaid
-pie title Dataset Distribution
-    "Function Simplify (7,200)" : 7200
-    "Normal Calculation (4,090)" : 4090
-    "Theory (436)" : 436
-```
+- Provide a standardized, easy-to-use dataset for digital circuit design problems.
+- Support evaluation and comparison of AI/LLM models in digital electronics.
+- Enable expansion, contribution, and reuse of data within the research community.
 
-### Detailed Breakdown
+## 3. Data Scale
 
-| Level | Name | Samples | Description |
-|-------|------|---------|-------------|
-| 1 | Basic Theory | 436 | Foundational concepts and definitions |
-| 2 | Basic Calculations | 4,090 | Number system conversions and arithmetic |
-| 3 | Function Minimization | 7,200 | K-map optimization problems |
+#### 📊 Digital Circuit Design Dataset Structure
 
-## 🚀 Installation
+- **Scale**: 11,700+ problems covering Karnaugh map minimization, binary arithmetic, number system conversions, and logic optimization.
+- **Distribution**: 60% beginner, 30% intermediate, 10% advanced problems.
+- **Purpose**: Ideal for classroom learning, AI/LLM training, and research benchmarking.
+
+<div align="center">
+  
+[![Biểu đồ Sunburst](https://github.com/edabk-hust/edabk-ic-design-dataset/blob/main/images/data_collection.png)](https://chart-studio.plotly.com/~duonggiang156/5/)
+
+</div>
+
+## 4. Usage Guide
+
+### Environment
+- Python >= 3.8
+- Required libraries: `pandas`, `numpy`, `matplotlib`, `plotly`, `sympy`
+
+### 🚀 Quick Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/Nhai-Dao/LLM_DATASET.git
-cd LLM_DATASET
+git clone https://github.com/your-repo/edabk-ic-design-dataset.git
+cd edabk-ic-design-dataset
 
 # Install dependencies
 pip install -r requirements.txt
@@ -184,78 +78,89 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-## ⚡ Quick Start
+### 🔧 Advanced Usage
+
+#### Custom Model Integration
 
 ```python
-from edabk_benchmark import BenchmarkRunner, load_dataset
+# Define your custom model
+def my_custom_model(question, context=None):
+    """
+    Your custom AI model for digital circuit problems
+    
+    Args:
+        question (str): The problem statement
+        context (dict): Additional context if needed
+    
+    Returns:
+        dict: {
+            'answer': str,
+            'confidence': float,
+            'reasoning': str
+        }
+    """
+    # Your model logic here
+    response = your_model_inference(question)
+    
+    return {
+        'answer': response.answer,
+        'confidence': response.confidence,
+        'reasoning': response.explanation
+    }
 
-# Load dataset
-dataset = load_dataset("level2_calculations")
-
-# Initialize benchmark
-runner = BenchmarkRunner(dataset=dataset, model_name="your_model")
-
-# Run evaluation
-results = runner.evaluate_model(your_model_function)
+# Register and evaluate
+runner.register_model(my_custom_model)
+results = runner.evaluate_on_subset(level=2, sample_size=100)
 ```
 
-## 📈 Benchmark Results
+#### Batch Processing
 
-### Model Performance Comparison
+```python
+# Process multiple questions at once
+questions = [
+    "Convert 255 to binary",
+    "Simplify: AB + AB' + A'B",
+    "Find 2's complement of 1010110"
+]
 
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4A90E2', 'primaryTextColor': '#fff', 'primaryBorderColor': '#4A90E2', 'lineColor': '#4A90E2', 'secondaryColor': '#27AE60', 'tertiaryColor': '#E67E22'}}}%%
-xychart-beta
-    title "Model Performance Comparison"
-    x-axis "Models" [GPT-4, Claude-3.5, Gemini Pro, Our Package]
-    y-axis "Accuracy (%)" 0 --> 100
-    bar [87.2, 89.1, 78.4, 94.8] "Theory"
-    bar [92.5, 88.7, 85.9, 96.2] "Calculations"
-    bar [73.8, 76.2, 65.3, 89.7] "K-Maps"
-    bar [84.5, 84.7, 76.5, 93.6] "Overall"
+results = solver.batch_solve(questions, parallel=True)
+for i, result in enumerate(results):
+    print(f"Q{i+1}: {result.answer}")
 ```
 
-### Response Time Comparison
+## 🔮 Future Development Roadmap
 
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4A90E2', 'primaryTextColor': '#fff', 'primaryBorderColor': '#4A90E2', 'lineColor': '#4A90E2', 'secondaryColor': '#27AE60', 'tertiaryColor': '#E67E22'}}}%%
-xychart-beta
-    title "Response Time Comparison"
-    x-axis "Models" [GPT-4, Claude-3.5, Gemini Pro, Our Package]
-    y-axis "Time (seconds)" 0 --> 3
-    bar [2.3, 1.9, 1.7, 0.8] "Response Time"
+### 🎯 Development Priorities
+
+#### 🤖 **AI Agent Transformation**
+Transform the current benchmark into an intelligent autonomous agent capable of end-to-end digital circuit design, optimization, and verification with natural language understanding.
+
+#### ⚡ **Advanced Circuit Support**
+Extend capabilities to support comprehensive circuit types including combinational/sequential logic, timing analysis, clock wave generation, waveform analysis, and power optimization.
+
+#### 💬 **Chat Application Integration**
+Develop interactive chat interface with voice commands, hand-drawn circuit recognition, real-time collaboration, and step-by-step guided learning for enhanced user experience.
+
+#### 🎓 **Illuma Educational Platform**
+Integrate with Illuma to create a complete student guidance system featuring personalized learning paths, automated assessment, progress tracking, and gamified learning experiences.
+
+**Target**: Create the most comprehensive AI-powered digital circuit design education platform worldwide.
+
+## 🤝 Contribution & Development
+
+- All contributions regarding data, code, or ideas are welcome!
+- Please create a pull request or issue for discussion.
+- To develop more benchmarks or expand the dataset, refer to the `src/` directory and contact the development team.
+
+## 📄 Citation
+
+If you use this dataset for research, please cite as follows:
+
 ```
-
-### Detailed Performance Metrics
-
-| Model | Theory | Calculations | K-Maps | Overall | Response Time |
-|-------|---------|--------------|---------|----------|---------------|
-| GPT-4 | 87.2% | 92.5% | 73.8% | 84.5% | 2.3s |
-| Claude-3.5 | 89.1% | 88.7% | 76.2% | 84.7% | 1.9s |
-| Gemini Pro | 78.4% | 85.9% | 65.3% | 76.5% | 1.7s |
-| Our Package | 94.8% | 96.2% | 89.7% | 93.6% | 0.8s |
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📝 Citation
-
-```bibtex
 @misc{edabk-ic-design-dataset,
   title={edabk-ic-design-dataset: Benchmark for digital circuit design},
-  author={Nhai-Dao},
+  author={EDABK Development Team},
   year={2024},
-  url={https://github.com/Nhai-Dao/LLM_DATASET}
+  url={https://github.com/<your-repo>}
 }
 ```
-
----
-
-<div align="center">
-Made with ❤️ by Nhai-Dao
-</div>
